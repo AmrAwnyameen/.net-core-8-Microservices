@@ -3,41 +3,25 @@
   A demonstration of a microservices architecture using .NET 8, Docker, Kubernetes, gRPC, SQL Server, and In-Memory Database.
 </h3>
 
+<hr>
 
+📄 [Live Demo](#) 
+
+<hr>
+
+📄 [Database Schema](#)
+
+<hr>
 
 <h3 align="left">Technologies Used:</h3>
-<h3 align="left">Languages and Tools:</h3>
 <p align="left">
-  <!-- Docker -->
-  <a href="https://www.docker.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="Docker" width="40" height="40"/>
-  </a>
-  <!-- Kubernetes -->
-  <a href="https://kubernetes.io/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="40" height="40"/>
-  </a>
-  <!-- .NET -->
-  <a href="https://dotnet.microsoft.com/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" alt=".NET" width="40" height="40"/>
-  </a>
-  <!-- gRPC -->
-  <a href="https://grpc.io/" target="_blank">
-    <img src="https://grpc.io/img/logos/grpc-icon-color.png" alt="gRPC" width="40" height="40"/>
-  </a>
-  <!-- SQL Server -->
-  <a href="https://learn.microsoft.com/en-us/sql/sql-server/" target="_blank">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="SQL Server" width="40" height="40"/>
-  </a>
-  <!-- In-Memory Database -->
-  <a href="https://learn.microsoft.com/en-us/ef/core/providers/in-memory/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="InMemoryDB" width="40" height="40"/>
-  </a>
-  <!-- C# -->
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
-  </a>
+  <a href="https://dotnet.microsoft.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt=".NET" width="40" height="40" style="max-width: 100%;"> </a>
+  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://www.docker.com/sites/default/files/d8/2019/docker-ce-logo.png" alt="Docker" width="40" height="40" style="max-width: 100%;"> </a>
+  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://kubernetes.io/images/header/logo.png" alt="Kubernetes" width="40" height="40" style="max-width: 100%;"> </a>
+  <a href="https://grpc.io/" rel="nofollow"> <img src="https://grpc.io/img/small-logo.png" alt="gRPC" width="40" height="40" style="max-width: 100%;"> </a>
+  <a href="https://www.microsoft.com/en-us/sql-server" rel="nofollow"> <img src="https://camo.githubusercontent.com/42dfd0950d93092d82d677877fe87d5bab1e2acccc1110bf0f9dd755988ccb7e/68747470733a2f2f7777772e7376677265706f2e636f6d2f73686f772f3330333232392f6d6963726f736f66742d73716c2d7365727665722d6c6f676f2e737667" alt="SQL Server" width="40" height="40" style="max-width: 100%;"> </a>
+  <a href="https://docs.microsoft.com/en-us/ef/" rel="nofollow"> <img src="https://docs.microsoft.com/en-us/ef/images/ef-core.png" alt="Entity Framework" width="40" height="40" style="max-width: 100%;"> </a>
 </p>
-
 
 <hr>
 
