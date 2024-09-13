@@ -80,7 +80,5 @@ Microservices notes  commands:
 
 <hr>
 
-<h3 align="left">Contributing:</h3>
-<p align="left">
-  If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
-</p>
+
+
