@@ -3,15 +3,7 @@
   A demonstration of a microservices architecture using .NET 8, Docker, Kubernetes, gRPC, SQL Server, and In-Memory Database.
 </h3>
 
-<hr>
 
-📄 [Live Demo](#) 
-
-<hr>
-
-📄 [Database Schema](#)
-
-<hr>
 
 <h3 align="left">Technologies Used:</h3>
 <p align="left">
