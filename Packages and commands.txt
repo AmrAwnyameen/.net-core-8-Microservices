@@ -1,0 +1,63 @@
+Microservices notes  commands:
+
+ Micro packages:
+------------------------------------------------------------------------------------------------------------------------------
+⦁	Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+⦁	 Install-Package Microsoft.EntityFrameworkCore
+⦁	Install-Package Microsoft.EntityFrameworkCore.Design 
+⦁	Install-Package Microsoft.EntityFrameworkCore.InMemory
+⦁	 Install-Package Microsoft.EntityFrameworkCore.SqlServer
+⦁	 Install-Package Grpc.AspNetCore
+⦁	 Install-Package Grpc.Net.Client
+⦁	 Install-Package Grpc.Tools
+⦁	 Install-Package Google.Protobuf
+--------------------------------Docker---------------------------------------------------------------------------------------
+⦁	 docker run -d -p 5000:5000 --name platformservice amrawniameen/platformservice
+⦁	docker build -t amrawniameen/commandservice .
+⦁	docker run -d -p 5000:5000 --name platformservice amrawniameen/platformservice
+⦁	 docker run -d -p 5001:5001 --name commandservice amrawniameen/commandservice
+⦁	docker run -p 8080:80  -d  
+⦁	docker run -d -p 8000:8080  
+⦁	docker ps
+⦁	docker stop aebdb59255ae
+⦁	Docker start aebdb59255ae
+⦁	docker tag platformservice amrawniameen/platformservice:latest
+⦁	docker push amrawniameen/platformservice:latest 
+⦁	docker logs myplatformservice 
+⦁	docker image build -t  amrawniameen/platformservice:8.0.0 .
+⦁	docker-compose up --build 
+⦁	 docker tag microservices-platformservice amrawniameen/platformservice:latest
+⦁	docker run -d -p 5000:5000 --name platformservice amrawniameen/platformservice
+⦁	docker run -d -p 5000:5000 --name platformservice -e ASPNETCORE_ENVIRONMENT=Development amrawniameen/platformservice
+------------------Kubernates Config------------------------------------------------------------------------------------------
+⦁	Install chocolaty packae mamanger Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.WebClient]::New().DownloadString('https://community.chocolatey.org/install.ps1') | Invoke-Expression
+⦁	choco install minikube
+⦁	minikube start
+⦁	Kubectl version
+⦁	Kubectl apply -f platforms-depl.yaml (deploy docker image)
+⦁	Kubectl get deployment
+⦁	Kubectl get pods
+⦁	kubectl get services
+⦁	kubectl delete deployments --all --all-namespaces
+⦁	kubectl delete services --all
+⦁	Kubectl rollout restart deployments platformservice
+--------------Debug---K8s---------------------------------------------------------------------------------------------------------
+⦁	kubectl delete services platforms-clusterip-srv
+⦁	kubectl delete services platformnpservice-srv
+⦁	Kubectl delete deployment platformservice
+⦁	docker-compose up --build 
+⦁	docker tag microservices-platformservice amrawniameen/platformservice:latest
+⦁	docker tag commandservice-platformservice amrawniameen/commandservice:latest
+⦁	docker push amrawniameen/platformservice:latest
+⦁	Kubectl apply -f deployment.yaml 
+⦁	Kubectl apply -f platforms-np-srv.yaml
+⦁	Kubectl rollout restart deployments platformservice
+⦁	Kubectl apply -f command-np-srv.yaml
+⦁	Kubectl apply -f deployment.yaml
+⦁	Kubectl apply -f command-np-srv
+⦁	kubectl config use-context docker-desktop
+
+---------------nginx---- setup--------------------------------------------------------------------------------------------------------
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml 
+kubectl get pods -n ingress-nginx
+kubectl get services -n ingress-nginx
