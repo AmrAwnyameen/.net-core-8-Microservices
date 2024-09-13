@@ -6,13 +6,18 @@
 
 
 <h3 align="left">Technologies Used:</h3>
-Docker: Docker Icon
-Kubernetes: Kubernetes Icon
-.NET: .NET Core Icon
-gRPC: gRPC Icon
-SQL Server: SQL Server Icon
-InMemoryDB: InMemoryDB Icon (used SQLite logo for representation)
-C#: C# Icon
+## Microservices Architecture Demonstration
+
+This project showcases a **microservices architecture** using the following technologies:
+
+1. **.NET 8** - for building and running the microservices.
+2. **Docker** - for containerizing the microservices.
+3. **Kubernetes** - for orchestrating the Docker containers and managing scalability.
+4. **gRPC** - for communication between the microservices.
+5. **SQL Server** - for persistent data storage.
+6. **In-Memory Database (InMemoryDB)** - for faster data operations in certain services.
+
+
 
 <p align="left">
   <!-- Docker -->
