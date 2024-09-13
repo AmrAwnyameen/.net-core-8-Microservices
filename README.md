@@ -6,6 +6,14 @@
 
 
 <h3 align="left">Technologies Used:</h3>
+Docker: Docker Icon
+Kubernetes: Kubernetes Icon
+.NET: .NET Core Icon
+gRPC: gRPC Icon
+SQL Server: SQL Server Icon
+InMemoryDB: InMemoryDB Icon (used SQLite logo for representation)
+C#: C# Icon
+
 <p align="left">
   <!-- Docker -->
   <a href="https://www.docker.com/" target="_blank">
