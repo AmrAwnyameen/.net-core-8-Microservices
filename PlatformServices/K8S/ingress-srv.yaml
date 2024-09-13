@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-srv
+  annotations:
+    nginx.ingress.kubernetes.io/use-regex: 'true'
+spec:
+  ingressClassName: nginx  # Replaces the deprecated annotation
+  rules:
+    - host: acme.com
+      http:
+        paths:
+          - path: /api/Platforms
+            pathType: Prefix
+            backend:
+              service:
+                name: platformservice
+                port:
+                  number: 30005
+          - path: /api/c/Platform
+            pathType: Prefix
+            backend:
+              service:
+                name: commandservice
+                port:
+                  number: 30006

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: platformservice-nodeport
+spec:
+  selector:
+    app: platformservice
+  ports:
+    - protocol: TCP
+      port: 80           # Port exposed by the service
+      targetPort: 5000   # Port on the container
+      nodePort: 30005    # Port on the node
+  type: NodePort
