@@ -3,30 +3,27 @@ Microservices notes  commands:
  Micro packages:
 ------------------------------------------------------------------------------------------------------------------------------
 ⦁	 Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
-⦁        Install-Package Microsoft.EntityFrameworkCore
+⦁  Install-Package Microsoft.EntityFrameworkCore
 ⦁	 Install-Package Microsoft.EntityFrameworkCore.Design 
 ⦁	 Install-Package Microsoft.EntityFrameworkCore.InMemory
-⦁        Install-Package Microsoft.EntityFrameworkCore.SqlServer
+⦁  Install-Package Microsoft.EntityFrameworkCore.SqlServer
 ⦁	 Install-Package Grpc.AspNetCore
 ⦁	 Install-Package Grpc.Net.Client
 ⦁	 Install-Package Grpc.Tools
 ⦁	 Install-Package Google.Protobuf
 --------------------------------Docker---------------------------------------------------------------------------------------
-⦁        docker run -d -p 5000:5000 --name platformservice amrawniameen/platformservice
+        
 ⦁	 docker build -t amrawniameen/commandservice .
-⦁	 docker run -d -p 5000:5000 --name platformservice amrawniameen/platformservice
-⦁        docker run -d -p 5001:5001 --name commandservice amrawniameen/commandservice
-⦁	 docker run -p 8080:80  -d  
-⦁	 docker run -d -p 8000:8080  
-⦁	 docker ps
+⦁  docker run -d -p 5000:5000 --name platformservice amrawniameen/platformservice
 ⦁	 docker tag platformservice amrawniameen/platformservice:latest
 ⦁	 docker push amrawniameen/platformservice:latest 
-⦁	 docker logs myplatformservice 
-⦁	 docker image build -t  amrawniameen/platformservice:8.0.0 .
-⦁	 docker-compose up --build 
-⦁        docker tag microservices-platformservice amrawniameen/platformservice:latest
-⦁	 docker run -d -p 5000:5000 --name platformservice amrawniameen/platformservice
+⦁	 docker build -t amrawniameen/commandservice .
+⦁	 docker run -d -p 5001:5001 --name commandservice amrawniameen/commandservice
+⦁  docker tag commandservice amrawniameen/commandservice:latest
+⦁	 docker push amrawniameen/commandservice:latest 
+⦁	 docker ps
 ⦁	 docker run -d -p 5000:5000 --name platformservice -e ASPNETCORE_ENVIRONMENT=Development amrawniameen/platformservice
+⦁	 docker run -d -p 5001:5001 --name platformservice -e ASPNETCORE_ENVIRONMENT=Development amrawniameen/commandservice
 ------------------Kubernates Config------------------------------------------------------------------------------------------
 ⦁	Install chocolaty packae mamanger Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.WebClient]::New().DownloadString('https://community.chocolatey.org/install.ps1') | Invoke-Expression
 ⦁	choco install minikube
