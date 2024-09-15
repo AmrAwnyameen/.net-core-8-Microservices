@@ -58,13 +58,6 @@ This project showcases a **microservices architecture** using the following tech
   This project demonstrates a microservices architecture using .NET 8. It includes services for handling different aspects of the application, with inter-service communication managed by gRPC and messaging handled through a message bus.
 </p>
 
-<h3 align="left">Setup and Configuration:</h3>
-<ul>
-  <li>Clone the repository: <code>git clone https://github.com/yourusername/yourrepository.git</code></li>
-  <li>Navigate to the project directory: <code>cd yourrepository</code></li>
-  <li>Build and run the Docker containers: <code>docker-compose up</code></li>
-  <li>Access the application at <code>http://localhost:5001</code></li>
-</ul>
 
 <h3 align="left">Additional Resources:</h3>
 Microservices notes  commands:
