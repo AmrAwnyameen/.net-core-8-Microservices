@@ -18,8 +18,9 @@ This project showcases a **microservices architecture** using the following tech
 6. **In-Memory Database (InMemoryDB)** - for faster data operations in certain services.
 
   <a href="https://drive.google.com/file/d/1MEiUW4IGT6Gr2WLeytPcmPlF9PC0xc1v/view?usp=sharing" target="_blank">
-    <img src="https://drive.google.com/file/d/1MEiUW4IGT6Gr2WLeytPcmPlF9PC0xc1v/view?usp=sharing" alt="MicroServices" width="40" height="40"/>
+    <img src="https://i.ibb.co/3Rfvrhx/Screenshot-2024-09-08-140854.png" alt="MicroServices" width="900" height="600"/>
   </a>
+
 
 <p align="left">
   <!-- Docker -->
