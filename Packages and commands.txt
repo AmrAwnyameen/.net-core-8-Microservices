@@ -3,7 +3,7 @@ Microservices notes  commands:
  Micro packages:
 ------------------------------------------------------------------------------------------------------------------------------
 ⦁	 Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
-⦁  Install-Package Microsoft.EntityFrameworkCore
+⦁   Install-Package Microsoft.EntityFrameworkCore
 ⦁	 Install-Package Microsoft.EntityFrameworkCore.Design 
 ⦁	 Install-Package Microsoft.EntityFrameworkCore.InMemory
 ⦁  Install-Package Microsoft.EntityFrameworkCore.SqlServer
