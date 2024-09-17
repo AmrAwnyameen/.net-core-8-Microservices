@@ -2,15 +2,15 @@ Microservices notes  commands:
 
  Micro packages:
 ------------------------------------------------------------------------------------------------------------------------------
-⦁	 Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+⦁	  Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
 ⦁   Install-Package Microsoft.EntityFrameworkCore
-⦁	 Install-Package Microsoft.EntityFrameworkCore.Design 
-⦁	 Install-Package Microsoft.EntityFrameworkCore.InMemory
-⦁  Install-Package Microsoft.EntityFrameworkCore.SqlServer
-⦁	 Install-Package Grpc.AspNetCore
-⦁	 Install-Package Grpc.Net.Client
-⦁	 Install-Package Grpc.Tools
-⦁	 Install-Package Google.Protobuf
+⦁	  Install-Package Microsoft.EntityFrameworkCore.Design 
+⦁	  Install-Package Microsoft.EntityFrameworkCore.InMemory
+⦁   Install-Package Microsoft.EntityFrameworkCore.SqlServer
+⦁	  Install-Package Grpc.AspNetCore
+⦁	  Install-Package Grpc.Net.Client
+⦁	  Install-Package Grpc.Tools
+⦁	  Install-Package Google.Protobuf
 --------------------------------Docker---------------------------------------------------------------------------------------
         
 ⦁	 docker build -t amrawniameen/commandservice .
