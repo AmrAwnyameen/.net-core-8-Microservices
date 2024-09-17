@@ -18,6 +18,8 @@ This project showcases a **microservices architecture** using the following tech
 6. **In-Memory Database (InMemoryDB)** - for faster data operations in certain services.
 
 
+    <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="Docker" width="40" height="40"/>
+ 
 
 <p align="left">
   <!-- Docker -->
